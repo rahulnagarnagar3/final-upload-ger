@@ -1,0 +1,394 @@
+
+
+/* General Styles */
+
+body{
+    margin-top: 100px;
+   
+    
+}
+.login{
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 420px;
+    height: 500px;
+    background: white ;
+    color: red;
+    top: 50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50%,-50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+}
+
+.loginbox input[type="text"],input[type="password"] {
+    
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.loginbox input[type="submit"]{
+    
+    border: none;
+    outline: none;
+    height: 40px;
+    background: black;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: gray;
+    color: #000;
+    
+}
+
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 19px;
+    line-height: 20px;
+    color: black;
+    
+}
+
+.loginbox a:hover{
+    color: #ffc107;
+    
+}
+#wrapper{
+    padding-left: 0px;
+}
+
+#page-wrapper{
+    width: 100%;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+@media (min-width: 768px){
+    body{
+        margin-top: 50px;
+}
+
+    #wrapper{
+        padding-left: 255px;
+}
+
+    #page-wrapper{
+        padding: 10px;
+}
+}
+
+/*  Top Navigation Styles  */
+
+.top-nav{
+    0 15px;
+}
+
+.top-nav>li{
+    float: left;
+    display: inline-block;
+}
+
+.top-nav>li>a{
+    color: #999999;
+    line-height: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.top-nav>li>a:hover, .top-nav>li>a:focus{
+    color: #000000;
+}
+
+/*  Sidebar Styles  */
+
+@media (min-width: 768px){
+    .side-nav{
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        width: 255px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        background-color: #222222;
+        padding-bottom: 40px;
+        border-radius: 0;
+    }
+    .side-nav>li>a{
+        width: 255px;
+    }
+    .side-nav>li>a:hover, .side-nav>li>a:focus{
+        outline: none;
+        background-color: #000000 !important;
+    }
+}
+
+.side-nav>li>ul{
+    padding: 0;
+}
+
+.side-nav>li>ul>li>a{
+    padding: 10px 15px 10px 38px;
+    text-decoration: none;
+    color: #999999;
+    display: block;
+}
+
+.side-nav>li>ul>li>a:hover{
+    color: #ffffff;
+}
+
+/*  Custom Color For Panel  */
+
+.huge{
+    font-size: 40px;
+    line-height: normal;
+}
+
+.panel-green{
+    border-color: forestgreen: ;
+}
+
+
+.panel-green>.panel-heading{
+    color: #ffffff;
+    background-color:forestgreen;
+}
+
+.panel-green>a{
+    color: #5cd85c;
+}
+
+.panel-green>a:hover{
+    color: #3d8c3d;
+}
+
+.panel-orange{
+    border-color: orange;
+}
+
+.panel-orange>.panel-heading{
+    color: #ffffff;
+    background-color: orange;
+}
+
+.panel-orange>a{
+    color: #f0ad4e;
+}
+
+.panel-orange>a:hover{
+    color: #ba8539;
+}
+
+
+
+.panel-red{
+    border-color: red;
+}
+
+.panel-red>.panel-heading{
+    color: #ffffff;
+    background-color: red;
+}
+
+.panel-red>a{
+    color: orangered;
+}
+
+.panel-red>a:hover{
+    color: #8d4341;
+}
+.panel-brown{
+    border-color: saddlebrown;
+}
+
+.panel-brown>.panel-heading{
+    color: #ffffff;
+    background-color: saddlebrown;
+}
+
+.panel-brown>a{
+    color: saddlebrown;
+}
+
+.panel-brown>a:hover{
+    color: #ba8539;
+}
+
+
+.panel-blue{
+    border-color: blue;
+}
+
+.panel-blue>.panel-heading{
+    color: #ffffff;
+    background-color: blue;
+}
+
+.panel-blue>a{
+    color: blue;
+}
+
+.panel-blue>a:hover{
+    color: lightblue;
+}
+
+
+.panel-dgreen{
+    border-color: blueviolet;
+}
+
+.panel-dgreen>.panel-heading{
+    color: #ffffff;
+    background-color: blueviolet;
+}
+
+.panel-dgreen>a{
+    color: blueviolet;
+}
+
+.panel-dgreen>a:hover{
+    color: seagreen;
+}
+
+
+
+.panel-black{
+    border-color: black;
+}
+
+.panel-black>.panel-heading{
+    color: #ffffff;
+    background-color: black;
+}
+
+.panel-black>a{
+    color: black;
+}
+
+.panel-black>a:hover{
+    color: black;
+}
+
+/*  Admin Profile Styling  */
+
+.panel-body{
+    border-radius: 5px;
+}
+
+.thumb-info{
+    position: relative;
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+hr{
+    border: 0;
+    height: 1px;
+    margin: 10px 0 10px 0;
+}
+
+hr.dotted{
+    border-bottom: 1px #dddddd dotted;
+    height: 0px;
+    margin: 10px 0 10px 0;
+}
+
+.thumb-info .thumb-info-title{
+    background: rgba(36,27,28,.9);
+    bottom: 10%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: -1px;
+    padding: 9px 11px 9px;
+    position: absolute;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.thumb-info .thumb-info-inner{
+    display: block;
+}
+
+.thumb-info .thumb-info-type{
+    background: #0088cc;
+    display: inline-block;
+    border-radius: 2px;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 8px -2px -15px -2px;
+    padding: 2px 9px;
+    text-transform: none;
+}
+
+.widget-content-expanded{
+    font-size: 15px;
+}
+
+.widget-content-expanded span{
+    font-weight: 600;
+}
+
+.widget-content-expanded i{
+    color: #0088cc;
+    margin-right: 5px;
+}
+
+
+
+
+
+
